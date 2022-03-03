@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     overflow: hidden;
 }
 .container__texto{
@@ -52,32 +52,49 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 90vw;
-    height: 14vw;
+    width: 60rem;
+    height: 10rem;
+    transition: 0.5s all;
 }
 .container__fotos.prateado{
     background-image: url(./assets/img/prateado.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
+    width: 60rem;
+    height: 10rem;
+    transition: 0.5s all;
 }
 .container__fotos.dourado{
     background-image: url(./assets/img/dourado.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
+    width: 60rem;
+    height: 10rem;
+    transition: 0.5s all;
 }
 .container__fotos.grafite{
     background-image: url(./assets/img/grafite.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
+    width: 60rem;
+    height: 10rem;
+    transition: 0.5s all;
 }
 .container__fotos.azul{
     background-image: url(./assets/img/azul.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
+    width: 60rem;
+    height: 10rem;
+    transition: 0.5s all;
 }
 .container__cores{
     width: 50vw;
@@ -108,7 +125,7 @@
 .borderMudar{
     border: 5px solid #1f6ab4;
 }
-@media (max-width: 610px) {
+@media (max-width: 920px) {
     .container__texto-Titulo{
         font-size: 52px;
     }
@@ -121,12 +138,12 @@
     .container__fotos{
         background-image: url(./assets/img/azul.jpg);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: right;
         position: relative;
         left: 28rem;
-        width: 90vw;
-        transform: scale(3);
-        height: 14vw;
+        width: 60rem;
+        height: 10rem;
+        transform: scale(1.3);
     }
 }
