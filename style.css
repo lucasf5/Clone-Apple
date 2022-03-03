@@ -1,0 +1,132 @@
+.container{
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.container__texto{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    color: #1D1D1F;
+}
+.container__texto-Titulo{
+    font-weight: 700;
+    font-size: 64px;
+}
+.container__texto-Subtitulo{
+    font-size: 21px;
+    font-weight: 600;
+}
+.container__texto-paragrafoExplicativo{
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+}
+.container__texto-Preco{
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+    color: #86868B;
+}
+.container__texto-botaoComprar{
+    background-color: #0071e2;
+    text-align: center;
+    line-height: 1.8rem;
+    padding: 0.2rem 0.5rem;
+    color: #FFFFFF;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.container__fotos{
+    background-image: url(./assets/img/azul.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 90vw;
+    height: 14vw;
+}
+.container__fotos.prateado{
+    background-image: url(./assets/img/prateado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container__fotos.dourado{
+    background-image: url(./assets/img/dourado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container__fotos.grafite{
+    background-image: url(./assets/img/grafite.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container__fotos.azul{
+    background-image: url(./assets/img/azul.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container__cores{
+    width: 50vw;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container__cores-padrao{
+    width: 30px;
+    height: 30px;
+    border-radius: 2rem;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.azul{
+    background-color: #a7c1d8;
+}
+.prateado{
+    background-color: #f1f2ed;
+}
+.dourado{
+    background-color: #f9e8cf;
+}
+.grafite{
+    background-color: #53524e;
+}
+.borderMudar{
+    border: 5px solid #1f6ab4;
+}
+@media (max-width: 610px) {
+    .container__texto-Titulo{
+        font-size: 52px;
+    }
+    .container__texto-paragrafoExplicativo{
+        font-size: 16px;
+    }
+    .container__texto{
+        width: 80vw;
+    }
+    .container__fotos{
+        background-image: url(./assets/img/azul.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+        position: relative;
+        left: 28rem;
+        width: 90vw;
+        transform: scale(3);
+        height: 14vw;
+    }
+}
